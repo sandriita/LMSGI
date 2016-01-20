@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    color: white;
+    background-image: url("../img/highway-61-cabecera.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Neuton', serif;
+    background-size: 100% 100px;
+}
+h2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: Monserrat, sans-serif;
+}
+h2:last-of-type{
+    background-color: rgba(255,255,255,0.5);
+}
+a{
+    color:yellow;
+}
+a:hover{
+    text-decoration: none;
+    background-color: yellow;
+    color: black;
+}
+h2>small{
+    background-color: white;
+    color: black;
+    font-size: 0.5em;
+}
+h1 {
+    background-color: rgba(0,0,0,0.5);
+    font-family: Monserrat, sans-serif;
+}
+p,ul{
+    font-size: 1.5em;
+}
+img{
+    width: 25%;
+    border: 2px solid white;
+}
+.centro{
+    text-align: center;
+}

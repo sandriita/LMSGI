@@ -1,0 +1,58 @@
+body{
+    background-image: url("../img/fondo-guitarra.png") , url("../img/fondo.jpg");
+    background-repeat: repeat-y, repeat;
+    background-attachment: fixed ;
+    margin-left: 280px;
+    font-size:0.8em;
+    background-color:#b09f85;
+}
+h1{
+    background-color: #d7676f;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size:2em;
+}
+h2{
+    background-color:#5eb5ba ;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size:2em;
+    font-weight: 700;
+}
+h3{
+    background-color: #dda752;
+    font-family: 'Montserrat', sans-serif;
+    color:white ;
+    text-align: left;
+    font-size:1.8em;
+    font-weight: 700;
+
+}
+p{
+    font-family: 'Neuton', serif;
+    font-size:1.5em;
+}
+strong{
+    color: #5f1805;
+    font-weight: 700;
+}
+h3+p{
+    font-family: 'Montserrat', sans-serif;
+    text-shadow:  3px 3px 3px black;
+    color: white;
+    font-size:1.8em;
+
+}
+a:hover{
+    text-transform: uppercase;
+    font-size: 3em;
+}
+a{
+    color: white;
+}
+h3:hover,h3:hover + p {
+    background-color: black;
+}
